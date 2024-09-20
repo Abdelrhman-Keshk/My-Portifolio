@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import Main from './components/Main';
+import Skill from './components/Skills';
+import Projects from './components/Projects';
+import Connect from './components/Connect';
+import Footer from './components/Footer';
+import { BrowserRouter as Router } from 'react-router-dom';
+import './assets/fontawsome/css/all.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Header />
+        <Main />
+        <Skill />
+        <Projects />
+        <Connect />
+        <Footer />
+      </Router>
+    </>
   );
 }
 
