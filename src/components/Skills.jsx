@@ -32,12 +32,14 @@ const Skill = () => {
                     <h5>You Can See My Skills Here</h5>
                     <Carousel className="custom-carousel" responsive={responsive} infinite={true}>
                         <SkillProgressBar percentage={90} label={"FrontEnd Development"} />
-                        <SkillProgressBar percentage={50} label={"BackEnd Development"} />
-                        <SkillProgressBar percentage={80} label={"UI/UX Design"} />
-                        <SkillProgressBar percentage={60} label={"Cyber Securety"} />
-                        <SkillProgressBar percentage={85} label={"Data science"} />
-                        <SkillProgressBar percentage={75} label={"Node JS"} />
-                        <SkillProgressBar percentage={65} label={"Graphic Design"} />
+                        <SkillProgressBar percentage={95} label={"HTML5"} />
+                        <SkillProgressBar percentage={90} label={"CSS3"} />
+                        <SkillProgressBar percentage={90} label={"Responsive Design"} />
+                        <SkillProgressBar percentage={85} label={"JavaScript (ES6+)"} />
+                        <SkillProgressBar percentage={80} label={"React JS"} />
+                        <SkillProgressBar percentage={90} label={"Bootstrap"} />
+                        <SkillProgressBar percentage={85} label={"Version Control (Git/GitHub)"} />
+                        <SkillProgressBar percentage={80} label={"Cross-Browser Compatibility"} />
                     </Carousel>
                 </div>
             </div>

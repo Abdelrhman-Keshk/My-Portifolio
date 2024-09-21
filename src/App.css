@@ -191,7 +191,7 @@
 }
 
 .my-type-writer {
-  width: 90%;
+  width: 95%;
 }
 
 .type-writer,
@@ -562,13 +562,32 @@
   color: white;
 }
 
+.connect-send-btn:disabled:hover{
+  color: #000000;
+}
+
 .connect-send-btn:hover::before {
   width: 100%;
 }
 
 .connect-send-btn:disabled {
   cursor: not-allowed;
-  background-color: gray;
+  opacity: 0.6;
+}
+
+.connect-send-btn:disabled:hover::before{
+  width: 0;
+}
+
+.connect-send-success{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .email-section {
@@ -708,6 +727,10 @@ footer {
     width: 90% !important;
   }
 
+  .my-type-writer {
+    width: 100%;
+  }
+
   .connect-link {
     width: 125px;
     height: 50px;
@@ -835,5 +858,41 @@ footer {
 
   .skills-container{
     width: 95%;
+  }
+
+  .email-box button{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 345px){
+  .navbar-brand {
+    font-size: 22px !important;
+  }
+
+  .nav-item .nav-link {
+    font-size: 15px;
+  }
+  .icon-link {
+    width: 38px;
+    height: 38px;
+    font-size: 8px;
+  }
+  .connect-link {
+    width: 85px;
+    height: 40px;
+    font-size: 10px !important;
+  }
+
+  .projects-nav li button {
+    font-size: 11px;
+  }
+
+  .email-box{
+    height: 55px;
+  }
+
+  .email-box button{
+    font-size: 13px;
   }
 }
