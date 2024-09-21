@@ -24,7 +24,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <p className="sup-paragraph fs-5 fw-normal text-center text-lg-end w-100 ">
-                    --&copy; Copyrights 2024-- All Rights Reserved here By Abdelrhman Mohamed Keshk
+                    --&copy; Copyrights 2024-- All Rights Reserved Here By Abdelrhman Mohamed Keshk
                 </p>
             </div>
         </footer>

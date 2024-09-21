@@ -2,19 +2,14 @@
   "name": "react-portifolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Abdelrhman-Keshk.github.io/My-Portifolio/",
   "dependencies": {
     "@formspree/react": "^2.5.1",
-    "@fortawesome/fontawesome-svg-core": "^6.6.0",
-    "@fortawesome/free-brands-svg-icons": "^6.6.0",
-    "@fortawesome/free-regular-svg-icons": "^6.6.0",
-    "@fortawesome/free-solid-svg-icons": "^6.6.0",
-    "@fortawesome/react-fontawesome": "^0.2.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
     "postcss": "^8.4.47",
-    "progressbar.js": "^1.1.1",
     "react": "^18.3.1",
     "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.3.1",
@@ -22,11 +17,7 @@
     "react-portifolio": "file:",
     "react-router-dom": "^6.26.1",
     "react-scripts": "^5.0.1",
-    "react-slick": "^0.30.2",
-    "react-swiper": "^0.1.5",
-    "slick-carousel": "^1.8.1",
     "svgo": "^3.3.2",
-    "swiper": "^11.1.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -b deploy-branch"
   },
   "eslintConfig": {
     "extends": [

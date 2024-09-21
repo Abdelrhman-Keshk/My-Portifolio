@@ -72,7 +72,7 @@ const Tab1 = () => {
 const Tab3 = () => {
     return (
         <>
-            <p className="text-light fs-5 w-75 mx-auto">
+            <p className="text-light w-75 fs-5 mx-auto">
                 My name is Abdulrahman, I live in El-Mahalla El-Kubra, I am 16 years old, These are some of my projects
             </p>
         </>
@@ -89,8 +89,8 @@ const Projects = () => {
             <section id="projects">
                 <div className="projects-section">
                     <h2 className="section-title text-light mb-3 fs-1">My Projects</h2>
-                    <p className='sup-paragraph w-50 mb-5'>My name is Abulrahman, I live in Gharbia, El Mahalla El Kubra Center, These are some of my projects.</p>
-                    <div style={{ padding: "0 8.5%" }} className="container">
+                    <p className='sup-paragraph w-75 mb-5'>My name is Abulrahman, I live in Gharbia, El Mahalla El Kubra Center, These are some of my projects.</p>
+                    <div style={{ padding: "0 8.5%" }} className="container projects-tabs">
                         <ul className='projects-nav row'>
                             <li className={`${activeClass("tab1")}col-4`}><button onClick={() => setActiveTab("tab1")}>1st Section</button></li>
                             <li className={`${activeClass("tab2")}col-4`}><button onClick={() => setActiveTab("tab2")}>2nd Section</button></li>
