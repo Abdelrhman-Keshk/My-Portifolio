@@ -5,7 +5,7 @@ this project serves primarily as a learning exercise and technical demonstration
 
 ## 🌟 Live Demo
 
-**[View Live Portfolio](https://abdelrhman-keshk.github.io/My-Portifolio/)**
+**[View Live Portfolio](https://abdelrhman-keshk.github.io/Portifolio-App/)**
 
 ## 📸 Preview
 
