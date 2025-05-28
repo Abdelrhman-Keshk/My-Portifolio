@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portifolio-App/static/css/main.5e6c4f1c.css",
-    "main.js": "/Portifolio-App/static/js/main.b51af7a5.js",
+    "main.css": "/Portifolio-App/static/css/main.6092f9e3.css",
+    "main.js": "/Portifolio-App/static/js/main.73678291.js",
     "static/js/453.8d391f7e.chunk.js": "/Portifolio-App/static/js/453.8d391f7e.chunk.js",
     "static/media/fa-solid-900.ttf": "/Portifolio-App/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/project-3.jpg": "/Portifolio-App/static/media/project-3.6024b74f0f4c12e80e1f.jpg",
@@ -22,12 +22,12 @@
     "static/media/fa-v4compatibility.ttf": "/Portifolio-App/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/Portifolio-App/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/Portifolio-App/index.html",
-    "main.5e6c4f1c.css.map": "/Portifolio-App/static/css/main.5e6c4f1c.css.map",
-    "main.b51af7a5.js.map": "/Portifolio-App/static/js/main.b51af7a5.js.map",
+    "main.6092f9e3.css.map": "/Portifolio-App/static/css/main.6092f9e3.css.map",
+    "main.73678291.js.map": "/Portifolio-App/static/js/main.73678291.js.map",
     "453.8d391f7e.chunk.js.map": "/Portifolio-App/static/js/453.8d391f7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e6c4f1c.css",
-    "static/js/main.b51af7a5.js"
+    "static/css/main.6092f9e3.css",
+    "static/js/main.73678291.js"
   ]
 }
